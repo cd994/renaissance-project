@@ -1,0 +1,256 @@
+:root {
+    --background: #B43C33;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background: #222;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+
+  h1 {
+    margin: 0;
+  }
+  
+  
+  
+  /* Navigation goes here */
+  
+  header {
+    background: var(--background);
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+    padding: 1em;
+    position: sticky;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Hamburger Menu Styles*/
+  
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    display: block;
+    background: #D5AE63;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    content: "";
+    position: absolute;
+  }
+  
+  .nav-toggle-label span::before {
+    bottom: 8px;
+  }
+  
+  .nav-toggle-label span::after {
+    top: 8px;
+  }
+  
+  nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--background);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+  
+  nav a {
+    color: #D5AE63;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+  }
+  
+  nav a:hover {
+    color: black;
+  }
+  
+  .nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+  }
+  
+  .nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
+  
+  /* Media Query for desktop*/
+  
+  @media screen and (min-width: 800px) {
+    .nav-toggle-label {
+      display: none;
+    }
+  
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+  
+    .logo {
+      grid-column: 2/3;
+    }
+  
+    nav {
+      all: unset;
+      grid-column: 3/4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    nav li {
+      margin-left: 3em;
+      margin-bottom: 0;
+    }
+  
+    nav a {
+      opacity: 1;
+      position: relative;
+    }
+  
+    /*add line above or below the selection on hover*/
+  
+    nav a::before {
+      content: "";
+      display: block;
+      height: 5px;
+      background: black;
+      position: absolute;
+      top: -0.75em;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transform-origin: left;
+      transition: transform ease-in-out 250ms;
+    }
+  
+    nav a:hover::before {
+      transform: scale(1, 1);
+    }
+  }
+
+
+
+
+/* The hero image */
+.hero-image {
+  
+  background-image: url(images/hero-image@2x.jpg);
+
+  /* Set a specific height */
+  height: 200vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.hero-text-position {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  font-family: "Fancy-Pants";
+  margin: 0;
+}
+
+.position {
+  font-family: "cocosignum";
+}
+
+
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+
+.box {
+  width: 350px;
+  height: 400px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #ebffe5;
+  
+  
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 320px;
+  height: auto;
+  
+}
+
+
