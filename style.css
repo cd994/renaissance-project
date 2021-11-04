@@ -10,14 +10,16 @@
   
   body {
     margin: 0;
-    background: #222;
+    background: white;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
   }
 
   h1 {
-    margin: 0;
+    text-align: center;
+    padding: auto;
   }
+  
   
   
   
@@ -185,10 +187,7 @@
 .hero-image {
   
   background-image: url(images/hero-image@2x.jpg);
-
-  /* Set a specific height */
   height: 200vh;
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,12 +229,17 @@ p {
 }
 
 
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
 .box {
   width: 350px;
   height: 400px;
   padding: 15px;
   margin-bottom: 15px;
-  background: #ebffe5;
+  
   
   
 }
@@ -248,9 +252,96 @@ p {
 }
 
 img {
-  width: 320px;
+  width: 100%;
   height: auto;
   
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  
+}
 
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+h3 {
+  background-color: #C36E46;
+  padding: .5em;
+  text-align: center;
+}
+
+h4 {
+text-align:left
+}
+
+
+
+.contact-title {
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  background: #C36E46;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+form div {
+  margin: 15px;
+}
+
+form input {
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #246b73;
+  color: white;
+}
+
+
+.merchants {
+position: relative;
+    text-align: center;
+    color: white;
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
