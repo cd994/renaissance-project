@@ -197,7 +197,7 @@
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
-  color: white;
+  color: #F8D2B4;
   width: 60%;
   margin: 0 auto;
   padding: 2em;
@@ -284,23 +284,12 @@ text-align:left
 
 
 
-.contact-title {
-  margin-top: 100px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.contact-title h1 {
-  font-size: 32px;
-  line-height: 10px;
-}
-
 .contact-title h2 {
   font-size: 16px;
 }
 
 form {
-  background: #C36E46;
+  background: #4F4440;
   width: 300px;
   margin: 0 auto;
   padding: 15px;
@@ -319,6 +308,7 @@ form input {
 }
 
 button {
+  background: #C36E46;
   padding: 10px 15px;
   border-radius: 25px;
   border: none;
@@ -327,8 +317,8 @@ button {
 }
 
 button:hover {
-  background: #246b73;
-  color: white;
+  background: #B43C33;
+  color: #38383a;
 }
 
 
@@ -345,3 +335,59 @@ position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.wrapper {
+  position:relative;
+  width:400px;
+}
+
+
+  
+/* MERCHANTS IMAGE GRID*/
+.image {
+  width:100%;
+}
+
+.text {
+  font-family:sans-serif;
+  color:white;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:30px;
+  padding:10px;
+  transition:.2s;
+}
+
+.merchant-card {
+  width: 275px;
+  height: 130px;
+}
+
+
+.booth-label {
+  background: #D5AE63;
+  padding: 1em;
+  text-align: center;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.card-text {
+  text-align: center;
+}
+
+/* MERCHANTS IMAGE BACKGROUNDS*/
+
+
+.abbey {
+  background: url(images/Group\ 46@2x.jpg);
+  background-size: cover;
+}
+
+
+
+
+
