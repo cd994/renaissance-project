@@ -336,10 +336,22 @@ position: relative;
   transform: translate(-50%, -50%);
 }
 
-.wrapper {
-  position:relative;
-  width:400px;
+.merchant-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.food-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 
   
@@ -364,10 +376,24 @@ position: relative;
 .merchant-card {
   width: 275px;
   height: 130px;
+  margin: 5px;
+}
+
+.food-card {
+  width: 430px;
+  margin: 25px;
 }
 
 
 .booth-label {
+  background: #D5AE63;
+  padding: 1em;
+  text-align: center;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.location-label {
   background: #D5AE63;
   padding: 1em;
   text-align: center;
@@ -387,7 +413,332 @@ position: relative;
   background-size: cover;
 }
 
+.american {
+  background: url(images/americanhighlander@2x.jpg);
+  background-size: cover;
+}
+
+.axe {
+  background: url(images/grizzly-scrub-grass-scaled@2x.jpg);
+  background-size: cover;
+}
+
+.casta {
+  background: url(images/castadiva@2x.jpg);
+  background-size: cover;
+}
+
+.chimes {
+  background: url(images/ambstudios@2x.jpg);
+  background-size: cover;
+}
+
+.crown {
+  background: url(images/crowncomb@2x.jpg);
+  background-size: cover;
+}
+
+.duck {
+  background: url(images/armour@2x.jpg);
+  background-size: cover;
+}
+
+.dungeon {
+  background: url(images/dungeon@2x.jpg);
+  background-size: cover;
+}
+
+.enchanted {
+  background: url(images/enchantedforest@2x.jpg);
+  background-size: cover;
+}
+
+.faire {
+  background: url(images/fairietailor@2x.jpg);
+  background-size: cover;
+}
+
+.fullmoon {
+  background: url(images/fullmooncandles@2x.jpg);
+  background-size: cover;
+}
+
+.leather {
+  background: url(images/leatherlair@2x.jpg);
+  background-size: cover;
+}
+
+.falcon {
+  background: url(images/redfalconarmour@2x.jpg);
+  background-size: cover;
+}
+
+.rooks {
+  background: url(images/rooksgambit@2x.jpg);
+  background-size: cover;
+}
+
+.royal {
+  background: url(images/jewlery@2x.jpg);
+  background-size: cover;
+}
+
+.sherwood {
+  background: url(images/sherwoodfineries@2x.jpg);
+  background-size: cover;
+}
+
+.silk {
+  background: url(images/silkroadtraders@2x.jpg);
+  background-size: cover;
+}
+
+.swords {
+  background: url(images/btb-swordshield-complete@2x.jpg);
+  background-size: cover;
+}
 
 
+
+.adventurers {
+  background: url(images/adventurersguild@2x.jpg);
+  background-size: cover;
+}
+
+.maze {
+  background: url(images/amazingmaze@2x.jpg);
+  background-size: cover;
+}
+
+.nest {
+  background: url(images/crowsnest@2x.jpg);
+  background-size: cover;
+}
+
+.fight {
+  background: url(images/fightcircle@2x.jpg);
+  background-size: cover;
+}
+
+.hippogriff {
+  background: url(images/hippogriff@2x.jpg);
+  background-size: cover;
+}
+
+.pirate {
+  background: url(images/gamingvillage@2x.jpg);
+  background-size: cover;
+}
+
+.boar {
+  background: url(images/wildboar@2x.jpg);
+  background-size: cover;
+}
+
+.wreck {
+  background: url(images/wreckroom@2x.jpg);
+  background-size: cover;
+}
+
+.ship {
+  background: url(images/pirateshipswings@2x.jpg);
+  background-size: cover;
+}
+
+
+.archers {
+  background: url(images/CHEESE@2x.jpg);
+  background-size: cover;
+}
+
+.fluff {
+  background: url(images/cottoncandy@2x.jpg);
+  background-size: cover;
+}
+
+.jerky {
+  background: url(images/jerky@2x.jpg);
+  background-size: cover;
+}
+
+.bread {
+  background: url(images/funnelcake@2x.jpg);
+  background-size: cover;
+}
+
+.creamery {
+  background: url(images/icecream@2x.jpg);
+  background-size: cover;
+}
+
+.steak {
+  background: url(images/steakonastake@2x.jpg);
+  background-size: cover;
+}
+
+
+
+.archery {
+  background: url(images/archery@2x.jpg);
+  background-size: cover;
+}
+
+.aviary {
+  background: url(images/aviary@2x.jpg);
+  background-size: cover;
+}
+
+.pottery {
+  background: url(images/POTTERY@2x.jpg);
+  background-size: cover;
+}
+
+
+.glasswork {
+  background: url(images/glassworks@2x.jpg);
+  background-size: cover;
+}
+
+.needle {
+  background: url(images/emperorsneedle@2x.jpg);
+  background-size: cover;
+}
+
+.imaginarium {
+  background: url(images/imaginarium@2x.jpg);
+  background-size: cover;
+}
+
+.laforge {
+  background: url(images/laforge@2x.jpg);
+  background-size: cover;
+}
+
+.merlin {
+  background: url(images/merlins@2x.jpg);
+  background-size: cover;
+}
+
+.utopia {
+  background: url(images/utopiaarmory@2x.jpg);
+  background-size: cover;
+}
+
+/* FOOD AND DRINK IMAGE BACKGROUNDS*/
+
+.anchor {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.argyle {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.braten {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.broth {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.candy {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.knightcafe {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.knightrises {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.cantina {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.baked {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.huntsman {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.legges {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.kettle {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.knots {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.mac {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.majesty {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.newworldinn {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.schwein {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.public {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.confectionary {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.carts {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.tudor {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.pickle {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
+
+.witch {
+  background: url(images/anchormermaid@2x.jpg);
+  background-size: cover;
+}
 
 
