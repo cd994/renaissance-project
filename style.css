@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/yhp1gkk.css");
+
 :root {
     --background: #B43C33;
   }
@@ -282,7 +284,12 @@ h4 {
 text-align:left
 }
 
-
+.section-title h1 {
+  background: #C36E46;
+  padding: 15px;
+  font-family: swear-display, serif;
+  font-weight: 700;
+}
 
 .contact-title h2 {
   font-size: 16px;
@@ -337,7 +344,7 @@ position: relative;
 }
 
 .merchant-wrapper {
-  width: 80%;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -624,6 +631,10 @@ position: relative;
   background-size: cover;
 }
 
+
+
+
+
 /* FOOD AND DRINK IMAGE BACKGROUNDS*/
 
 .anchor {
@@ -632,113 +643,319 @@ position: relative;
 }
 
 .argyle {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/argyle@2x.jpg);
   background-size: cover;
 }
 
 .braten {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/braten2@2x.jpg);
   background-size: cover;
 }
 
 .broth {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/breadbroth@2x.jpg);
   background-size: cover;
 }
 
 .candy {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/candyemporium@2x.jpg);
   background-size: cover;
 }
 
 .knightcafe {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/darkknight@2x.jpg);
   background-size: cover;
 }
 
 .knightrises {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/darkknight2@2x.jpg);
   background-size: cover;
 }
 
 .cantina {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/elbravucon@2x.jpg);
+  background-size: cover;
+}
+
+.german {
+  background: url(images/german@2x.jpg);
   background-size: cover;
 }
 
 .baked {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/getbaked@2x.jpg);
   background-size: cover;
 }
 
 .huntsman {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/huntsman@2x.jpg);
   background-size: cover;
 }
 
 .legges {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/sixknightstl@2x.jpg);
   background-size: cover;
 }
 
 .kettle {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/kettlecraic@2x.jpg);
   background-size: cover;
 }
 
 .knots {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/knotsforyou@2x.jpg);
   background-size: cover;
 }
 
 .mac {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/macbeths@2x.jpg);
   background-size: cover;
 }
 
 .majesty {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/majestyscup@2x.jpg);
   background-size: cover;
 }
 
 .newworldinn {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/newworldinn2@2x.jpg);
   background-size: cover;
 }
 
 .schwein {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/prancingpig@2x.jpg);
   background-size: cover;
 }
 
 .public {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/publichouse3@2x.jpg);
   background-size: cover;
 }
 
 .confectionary {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/icecream-1@2x.jpg);
   background-size: cover;
 }
 
 .carts {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/sixknights@2x.jpg);
   background-size: cover;
 }
 
 .tudor {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/tudorfruit@2x.jpg);
   background-size: cover;
 }
 
 .pickle {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/wickedpickle@2x.jpg);
   background-size: cover;
 }
 
 .witch {
-  background: url(images/anchormermaid@2x.jpg);
+  background: url(images/witchshat@2x.jpg);
   background-size: cover;
 }
 
 
+/* POURHOUSES */
+
+.anchor2 {
+  background: url(images/amwharf@2x.jpg);
+  background-size: cover;
+}
+
+.ball {
+  background: url(images/ballchain@2x.jpg);
+  background-size: cover;
+}
+
+.bierhalle {
+  background: url(images/bierhalle@2x.jpg);
+  background-size: cover;
+}
+
+.cockney {
+  background: url(images/cockneys@2x.jpg);
+  background-size: cover;
+}
+
+.bravucon {
+  background: url(images/elbravucon2@2x.jpg);
+  background-size: cover;
+}
+
+.german2 {
+  background: url(images/germankitchen@2x.jpg);
+  background-size: cover;
+}
+
+.grapes {
+  background: url(images/publichouse3@2x.jpg);
+  background-size: cover;
+}
+
+.hart {
+  background: url(images/knightsale@2x.jpg);
+  background-size: cover;
+}
+
+.whiskey {
+  background: url(images/whiskey@2x.jpg);
+  background-size: cover;
+}
+
+.oarhouse {
+  background: url(images/oarhouseprovisions@2x.jpg);
+  background-size: cover;
+}
+
+.malley {
+  background: url(images/pyrateship@2x.jpg);
+  background-size: cover;
+}
+
+.pyrate {
+  background: url(images/witchshat@2x.jpg);
+  background-size: cover;
+}
+
+
+
+/* FAQ */
+
+.faq-heading {
+  font-family: Lato;   
+  font-weight: 400;
+  font-size: 19px;
+   -webkit-transition: text-indent 0.2s;
+  text-indent: 20px;
+  color: #333;
+}
+
+.faq-text {
+  font-family: Open Sans;   
+  font-weight: 400;
+  color: #919191;
+  width:95%;
+  padding-left:20px;
+  margin-bottom:30px;
+}
+
+.faq {
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #E1E1E1;
+}
+.faq label {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 56px;
+  padding-top:1px;
+ 
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.faq input[type="checkbox"] {
+  display: none;
+}
+
+.faq .faq-arrow {
+  width: 5px;
+  height: 5px;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-top: 2px solid rgba(0, 0, 0, 0.33);
+  border-right: 2px solid rgba(0, 0, 0, 0.33);
+  float: right;
+  position: relative;
+  top: -30px;
+  right: 27px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+ .faq input[type="checkbox"]:checked + label > .faq-arrow {
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+ .faq input[type="checkbox"]:checked + label {
+  display: block;
+  background: rgba(255,255,255,255) !important;
+  color: #4f7351;
+  height: 225px;
+  transition: height 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+ .faq input[type='checkbox']:not(:checked) + label {
+  display: block;
+  transition: height 0.8s;
+  height: 60px;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* CALENDER*/
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  background: #f0f4f8;
+}
+.calender {
+  margin: 2rem auto;
+  width: 30rem; height: 36rem;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  background: #C36E46;
+  font-size: 0;
+}
+.day, .week, .month {
+  font-family: 'Arimo', sans-serif;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  color: #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 4rem; height: 4rem;
+  border: 1px solid;
+  border-color: rgba(255,255,255,0);
+  border-radius: 50%;
+  transition: 200ms ease-in-out;
+}
+.week {
+  cursor: default;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+.month {
+  width: 100%;
+}
+.day:hover {
+  border-color: rgba(255,255,255,.2);
+  background: rgba(255,255,255,.1);
+}
+.not {
+  color: #999;
+}
