@@ -17,6 +17,13 @@
     font-weight: 400;
   }
 
+  
+  h0 {
+  font-size: 3.3em;
+  text-align: center;
+  padding: auto;
+}
+
   h1 {
     text-align: center;
     padding: auto;
@@ -913,49 +920,3 @@ position: relative;
 
 
 
-/* CALENDER*/
-
-html, body {
-  margin: 0;
-  height: 100%;
-  font-family: sans-serif;
-  background: #f0f4f8;
-}
-.calender {
-  margin: 2rem auto;
-  width: 30rem; height: 36rem;
-  padding: 1.5rem;
-  border-radius: 3rem;
-  background: #C36E46;
-  font-size: 0;
-}
-.day, .week, .month {
-  font-family: 'Arimo', sans-serif;
-  cursor: pointer;
-  font-size: 1.5rem;
-  line-height: 4rem;
-  color: #ccc;
-  text-align: center;
-  box-sizing: border-box;
-  display: inline-block;
-  width: 4rem; height: 4rem;
-  border: 1px solid;
-  border-color: rgba(255,255,255,0);
-  border-radius: 50%;
-  transition: 200ms ease-in-out;
-}
-.week {
-  cursor: default;
-  color: #aaa;
-  font-size: 1.2rem;
-}
-.month {
-  width: 100%;
-}
-.day:hover {
-  border-color: rgba(255,255,255,.2);
-  background: rgba(255,255,255,.1);
-}
-.not {
-  color: #999;
-}
