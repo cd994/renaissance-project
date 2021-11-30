@@ -13,15 +13,24 @@
   body {
     margin: 0;
     background: white;
-    font-family: "Raleway", sans-serif;
+    font-family: lemon-sans-next-condensed, sans-serif;
     font-weight: 400;
+    font-style: normal;
   }
 
+  .design {
+    width:600px;
+    padding: 0 auto;
+    display: center;
+  }
   
-  h0 {
-  font-size: 3.3em;
+  .hero-title {
+  font-size: 4em;
   text-align: center;
   padding: auto;
+  font-family: swear-display, serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
   h1 {
@@ -285,6 +294,9 @@ h3 {
   background-color: #C36E46;
   padding: .5em;
   text-align: center;
+  font-family: swear-display, serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 h4 {
@@ -298,12 +310,10 @@ text-align:left
   font-weight: 700;
 }
 
-.contact-title h2 {
-  font-size: 16px;
-}
+
 
 form {
-  background: #4F4440;
+  background: #C36E46;
   width: 300px;
   margin: 0 auto;
   padding: 15px;
@@ -318,11 +328,11 @@ form input {
   padding: 10px 15px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid white;
 }
 
 button {
-  background: #C36E46;
+  background: #C72418;
   padding: 10px 15px;
   border-radius: 25px;
   border: none;
@@ -331,8 +341,8 @@ button {
 }
 
 button:hover {
-  background: #B43C33;
-  color: #38383a;
+  background: #D8A647;
+  color: white;
 }
 
 
@@ -365,6 +375,7 @@ position: relative;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 
 
@@ -417,6 +428,14 @@ position: relative;
 
 .card-text {
   text-align: center;
+  color: #FFBE40;
+  font-size: 1em;
+  font-family: sans-serif;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.33);
+  margin: 0 auto;
+  text-align: center;
+  padding: 2px;
 }
 
 /* MERCHANTS IMAGE BACKGROUNDS*/
@@ -818,12 +837,12 @@ position: relative;
 }
 
 .malley {
-  background: url(images/pyrateship@2x.jpg);
+  background: url(images/omalleys@2x.jpg);
   background-size: cover;
 }
 
 .pyrate {
-  background: url(images/witchshat@2x.jpg);
+  background: url(images/pyrateship@2x.jpg);
   background-size: cover;
 }
 
@@ -920,3 +939,4 @@ position: relative;
 
 
 
+/
