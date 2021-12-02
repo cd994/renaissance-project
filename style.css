@@ -215,7 +215,6 @@
 
 .hero-text {
   text-align: center;
-  
   color: #F8D2B4;
   width: 60%;
   margin: 0 auto;
@@ -979,3 +978,11 @@ position: relative;
 }
 
 
+/* Footer */
+footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 50px 0;
+  text-align: left;
+  background-color: #B43C33;
+}

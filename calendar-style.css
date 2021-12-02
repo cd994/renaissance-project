@@ -63,7 +63,7 @@ input, textarea {
 	color: #B43C33;
 }
 .bgColorRed {
-	background-color: ##B43C33;
+	background-color: #B43C33;
 }
 .bgColorDarkRed {
 	background-color: #bc6969;	
@@ -290,6 +290,6 @@ textarea.formError, input.formError {
 	height: 110px;
 	width: 110px;
 	box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.14);
-	background: ##B43C33;
+	background: #B43C33;
 	color: white;
 }
