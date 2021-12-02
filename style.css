@@ -201,7 +201,7 @@
 
 
 
-/* The hero image */
+/* HERO IMAGE */
 .hero-image {
   
   background-image: url(images/hero-image@2x.jpg);
@@ -212,9 +212,10 @@
   position: relative;
 }
 
-/* Place text in the middle of the image */
+
 .hero-text {
   text-align: center;
+  
   color: #F8D2B4;
   width: 60%;
   margin: 0 auto;
@@ -241,7 +242,8 @@
 
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: lemon-sans-next-condensed, sans-serif;
+  font-weight: 300;
   font-size: 0.8em;
   line-height: 1.5;
 }
@@ -250,6 +252,7 @@ p {
 .card-container {
   display: flex;
   justify-content: center;
+  
 }
 
 .box {
@@ -282,6 +285,7 @@ img {
   text-align: center;
   
 }
+
 
 
 
@@ -377,9 +381,16 @@ position: relative;
 }
 
 
-
-
-  
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 /* MERCHANTS IMAGE GRID*/
 .image {
   width:100%;
@@ -438,6 +449,24 @@ position: relative;
   padding: 2px;
 }
 
+
+.carousel-cell {
+  width: 25%;
+}
+
+@media (max-width: 600px) {
+  .carousel-cell {
+    width: 50%;
+  }
+}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 /* MERCHANTS IMAGE BACKGROUNDS*/
 
 
@@ -660,7 +689,13 @@ position: relative;
 
 
 
-
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 /* FOOD AND DRINK IMAGE BACKGROUNDS*/
 
 .anchor {
@@ -847,7 +882,13 @@ position: relative;
 }
 
 
-
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 /* FAQ */
 
 .faq-heading {
@@ -938,5 +979,3 @@ position: relative;
 }
 
 
-
-/

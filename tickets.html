@@ -45,67 +45,77 @@
   <section class="section-title">
     <h1>Tickets</h1>
 
-    <div class="calendar-wrap">
-    <div class="calender">
-      <div class="month">October</div>
-      <div class="week">S</div>
-      <div class="week">M</div>
-      <div class="week">T</div>
-      <div class="week">W</div>
-      <div class="week">T</div>
-      <div class="week">F</div>
-      <div class="week">S</div>
-      <div class="not day">27</div>
-      <div class="not day">28</div>
-      <div class="not day">29</div>
-      <div class="not day">30</div>
-      <div class="day">1</div>
-      <div class="day">2</div>
-      <div class="day">3</div>
-      <div class="day">4</div>
-      <div class="day">5</div>
-      <div class="day">6</div>
-      <div class="day">7</div>
-      <div class="day">8</div>
-      <div class="day">9</div>
-      <div class="day">10</div>
-      <div class="day">11</div>
-      <div class="day">12</div>
-      <div class="day">13</div>
-      <div class="day">14</div>
-      <div class="day">15</div>
-      <div class="day">16</div>
-      <div class="day">17</div>
-      <div class="day">18</div>
-      <div class="day">19</div>
-      <div class="day">20</div>
-      <div class="day">21</div>
-      <div class="day">22</div>
-      <div class="day">23</div>
-      <div class="day">24</div>
-      <div class="day">25</div>
-      <div class="day">26</div>
-      <div class="day">27</div>
-      <div class="day">28</div>
-      <div class="day">29</div>
-      <div class="day">30</div>
-      <div class="day">31</div>
-      
+    <div id="calender-wrapper">
+      <div id="calender-title" class="disable-select flex row center-v around">
+        <div id="left" class="flex row center-vh"><span><</span></div>
+        <p class="flex row center-vh"></p>
+        <div id="right" class="flex row center-vh"><span>></span></div>
+      </div>
+      <div id="days" class="flex row center-vh colorRed disable-select">
+        <p>MON</p>
+        <p>TUE</p>
+        <p>WEDS</p>
+        <p>THURS</p>
+        <p>FRI</p>
+        <p>SAT</p>
+        <p>SUN</p>
+      </div>
+      <div id="calender-content" class="flex row wrap disable-select">
+      </div>
+      <div id="booking-wrapper" class="flex column center-vh">
+        <div id="booking-title" class="flex row center-vh bgColorRed">
+          <p class="flex row center-vh">DETAILS OF YOUR ENQUIRY</p>
+        </div>
+        <div id="booking-form" class="flex column center-v">
+          <div class="flex column start width-full">
+            <p>Your Name*</p>
+            <input id="form-name" class="width-full" type="text" placeholder=""/>
+          </div>
+          <div class="flex column start width-full">
+            <p>Your Email*</p>
+            <input id="form-email" class="width-full" type="email" placeholder=""/>
+          </div>
+          <div class="flex row center-vh width-full overflow-hidden">
+            <div class="flex column start width-3-4">
+              <p>Your Number*</p>
+              <input id="form-number" class="width-full" type="text" placeholder=""/>
+            </div>
+            <div class="flex column start width-1-4">
+              <p>Number of Guests*</p>
+              <input id="form-guests" class="width-full" type="number" max="10" placeholder=""/>	
+            </div>
+          </div>
+          <div class="flex column start width-full">
+            <p>Enquiry Information</p>
+            <textarea id="form-enquiry" type="text"></textarea>
+          </div>
+          <div class="flex column center-vh width-full">
+            <p><i>*Required field</i></p>
+          </div>
+        </div>
+      </div>
+      <div id="calender-panel" class="flex row center-v end">
+        <div id="info" class="flex column center-vh bgColorDarkRed">
+          <div id="info-titles" class="flex row center-vh">
+            <p class="flex column center-vh">Start Date</p>
+            <p class="flex column center-vh">End Date</p>
+          </div>
+          <div class="flex row center-vh bgColorRed">
+            <p class="flex column center-vh" id="startdate"></p>
+            <p class="flex column center-vh" id="enddate"></p>
+          </div>
+        </div>
+        <div id="clear" class="flex column center-vh bgColorDarkRed">
+          <p>CLEAR SELECTION</p>
+        </div>
+      </div>
     </div>
-
-<div class="dropdown-menu">
-    <span class="custom-dropdown">
-      <select>
-          <option>Weekend 1</option>
-          <option>Weekend 2</option>  
-          <option>Weekend 3</option>
-          <option>Weekend 4</option>
-          <option>Weekend 5</option>
-      </select>
-  </span>
-</div>
-
-</div>
+      
+    <div id="calender-buttons" class="flex row center-vh wrap">
+      <div id="make-booking" class="flex column center-vh">
+        <p>MAKE BOOKING ENQUIRY</p>
+      </div>
+    </div>
     
 
 
