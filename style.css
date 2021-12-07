@@ -230,13 +230,11 @@
 }
 
 .position {
-  font-family: "Fancy-Pants";
-  margin: 0;
+  font-family: "lemon-sans-next-condensed";
+  margin-top: 5px;
 }
 
-.position {
-  font-family: "cocosignum";
-}
+
 
 
 
@@ -976,6 +974,7 @@ position: relative;
 ::-webkit-scrollbar {
   display: none;
 }
+
 
 
 /* Footer */
