@@ -18,11 +18,7 @@
     font-style: normal;
   }
 
-  .design {
-    width:600px;
-    padding: 0 auto;
-    display: center;
-  }
+ 
   
   .hero-title {
   font-size: 4em;
@@ -37,8 +33,8 @@
     text-align: center;
     padding: auto;
   }
-  
-  
+
+
   
   
   /* Navigation goes here */
@@ -50,6 +46,16 @@
     z-index: 999;
     padding: 1em;
     position: sticky;
+  }
+
+  
+  header h1 {
+    font-size: 1.2em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    color: #D5AE63;
+    font-family: Swear Display, sans-serif;
   }
   
   .nav-toggle {
@@ -222,7 +228,7 @@
 }
 
 .hero-text-position {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,7 +236,7 @@
 }
 
 .position {
-  font-family: "lemon-sans-next-condensed";
+  font-family: "Swear Display";
   margin-top: 5px;
 }
 
@@ -315,7 +321,7 @@ text-align:left
 
 form {
   background: #C36E46;
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
   padding: 15px;
   border-radius: 15px;
@@ -414,6 +420,7 @@ position: relative;
 
 .food-card {
   width: 430px;
+  height: 100px;
   margin: 25px;
 }
 
@@ -441,7 +448,7 @@ position: relative;
   font-family: sans-serif;
   width: 60%;
   background: rgba(0, 0, 0, 0.33);
-  margin: 0 auto;
+  margin: 5px auto;
   text-align: center;
   padding: 2px;
 }
@@ -455,6 +462,17 @@ position: relative;
   .carousel-cell {
     width: 50%;
   }
+
+  .card-container {
+    display: block;
+  }
+
+  .box {
+    width: 100%;
+    height: fit-content;
+  }
+
+  
 }
 
 /*
@@ -982,6 +1000,6 @@ footer {
   width: 100%;
   margin-top: 50px;
   padding: 50px 0;
-  text-align: left;
+  text-align: center;
   background-color: #B43C33;
 }
