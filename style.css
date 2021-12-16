@@ -50,7 +50,7 @@
 
   
   header h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 1.2;
@@ -233,6 +233,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 
 .position {
@@ -319,12 +322,13 @@ text-align:left
 
 
 
+
 form {
   background: #C36E46;
   width: 500px;
   margin: 0 auto;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 35px;
 }
 
 form div {
@@ -336,6 +340,12 @@ form input {
   width: 100%;
   border: none;
   border-bottom: 1px solid white;
+}
+
+form textarea {
+  height: 120px;
+  line-height: 1.5;
+  padding: 15px 28px;
 }
 
 button {
@@ -1003,3 +1013,4 @@ footer {
   text-align: center;
   background-color: #B43C33;
 }
+

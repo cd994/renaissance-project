@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="calendar-style.css">
+  <link rel="stylesheet" href="ticket-style.css">
   
   <title>renn-faire-website</title>
 
@@ -48,6 +48,101 @@
 
     
     
+<form action="#" id="booking-form">
+		
+  <div class="tab-content">
+    <div class="tab-pane" id="step1">
+      <ul>
+        <li>
+          <label>How many adults in your group?</label>
+          <div class="errorTxt"></div>
+          <select name="bf_totalGuests" required>
+            <option value="">Select</option>
+            <option value="1">1 ($30.95)</option>
+            <option value="2">2 ($61.90)</option>
+            <option value="3">3 ($92.85)</option>
+            <option value="4">4 ($123.80)</option>
+          <option value="More">More</option>
+        </select>
+       </li>
+       
+      </ul>
+    </div>
+
+    <div class="tab-pane" id="step1">
+      <ul>
+        <li>
+          <label>How many children in your group?</label>
+          <div class="errorTxt"></div>
+          <select name="bf_totalGuests" required>
+            <option value="">Select</option>
+            <option value="1">1 ($15.95)</option>
+            <option value="2">2 ($31.90)</option>
+            <option value="3">3 ($47.85)</option>
+            <option value="4">4 ($63.80)</option>
+          <option value="More">More</option>
+        </select>
+       </li>
+       
+      </ul>
+    </div>
+
+
+    <div class="tab-pane" id="step2">
+      <ul>
+        <li>
+          <label>Which date will you be attending? (mm/dd/yyyy)</label>
+          <div class="errorTxt"></div>
+          <input type="text" class="datepicker" name="bf_date">
+        </li>
+        <li>
+          <label>Which time of day?</label>
+          <div class="errorTxt"></div>
+          <select name="bf_time">
+            <option value="">Select</option>
+            <option value="Morning">11 a.m.</option>
+            <option value="Midday">12 p.m.</option>
+            <option value="Midday">1 p.m.</option>
+            <option value="Midday">2 p.m.</option>
+            <option value="Midday">3 p.m.</option>
+            <option value="Midday">4 p.m.</option>
+            <option value="Midday">5 p.m.</option>
+            <option value="Midday">6 p.m.</option>
+            <option value="Midday">7 p.m.</option>
+           
+            
+          </select>
+        </li>
+        
+        
+      </ul>
+    </div>
+    <div class="tab-pane" id="step3">
+      <ul>
+        <li>
+          <label>What is your first and last name?</label>
+          <div class="errorTxt"></div>
+          <input type="text" name="bf_fullname">
+        </li>
+        <li>
+          <label>Which email address should we send your tickets to?</label>
+          <div class="errorTxt"></div>
+          <input type="email" name="bf_email">
+        </li>
+        <li>
+          <label>Do you have any questions or a message? (Optional)</label>
+          <textarea name="bf_message"></textarea>
+        </li>
+        <li>
+          <button class="submit-btn" type="submit">Buy Tickets</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  
+  
+</form>
     
 
 
@@ -58,6 +153,10 @@
 
       <p>&copy; 2021 <b>PA Renaissance Faire</b> | All rights reserved | <a href="#">Disclaimer</a> | <a href="#">Sources</a> | </div>
           <!-- end copyright -->
+
+          
+
+    
 </footer>
 
 <script src="the-renaissance-project\.script.js"></script>

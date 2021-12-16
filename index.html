@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.typekit.net/yhp1gkk.css">
   <link rel="stylesheet" href="https://use.typekit.net/yhp1gkk.css">
+  <link rel="stylesheet" href="ticket-style.css">
   <title>renn-faire-website</title>
 
   <title>The Pennslvania Renaissance Faire</title>
@@ -16,9 +17,9 @@
 <body>
 
   <header>
-
-      <h1><a href="index.html">PENNSYLVANIA RENAISSANCE FAIRE</a></h1>
+    
       
+    <h1>PENNSYLVANIA RENAISSANCE FAIRE</h1>
 
 
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -43,7 +44,7 @@
     <div class="hero-text">
       <div class="hero-text-position">
         <h1 class="hero-title">Your Journey<br>Awaits!</h1> 
-        <button>GET TICKETS NOW</button>
+        <a href="tickets.html"><button>GET TICKETS NOW</button></a>
       </div>
 
       <div class="hero-text-position">
@@ -154,28 +155,30 @@
         <h1>Contact</h1>
       </div>
 
-      <form>
+      <form action="#" id="booking-form"> 
 
-        <div>
-          <label for="fname">First Name:</label>
-          <input type="text" id="fname" placeholder="John">
-        </div>
+        <li>
+          <label>First Name</label>
+          <div class="errorTxt"></div>
+          <input type="text" class="datepicker" name="bf_date">
+        </li>
 
-        <div>
-          <label for="lname">Last Name:</label>
-          <input type="text" id="lname" placeholder="Doe">
-        </div>
+        <li>
+          <label>Last Name</label>
+          <div class="errorTxt"></div>
+          <input type="text" class="datepicker" name="bf_date">
+        </li>
 
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" placeholder="username@email.com">
-        </div>
+        <li>
+          <label>Email:</label>
+          <div class="errorTxt"></div>
+          <input type="text" class="datepicker" name="bf_date">
+        </li>
 
-        <div>
-          <label for="message">Message:</label>
-          <input type="message" id="message" required>
-        </div>
-
+        <li>
+          <label>Do you have any questions or a message? (Optional)</label>
+          <textarea name="bf_message"></textarea>
+        </li>
         
         <button type="submit">Submit</button>
 
